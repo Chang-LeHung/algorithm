@@ -67,7 +67,7 @@
 
 首先我们清楚堆的存储数据结构是数组，那么就有对应的下标，那么父亲节点和孩子节点的位置对应关系是什么呢？
 
-如果父亲节点的下标为$i$那么它对应的做孩子的下标为$2*i+1$对应右孩子的下标为$2*i+2$，如果孩子节点的下标为$i$，则对应的父亲节点的下标为$\lfloor \frac{i - 1}{2} \rfloor$，可以参考下图进行计算。
+如果父亲节点的下标为$i$那么它对应的做孩子的下标为`2*i+1`对应右孩子的下标为`2*i+2`，如果孩子节点的下标为`i`，则对应的父亲节点的下标为`\lfloor \frac{i - 1}{2} \rfloor`，可以参考下图进行计算。
 
 ![https://gitee.com/Chang-LeHung/articls-images/raw/master/heap/14.png](https://img-blog.csdnimg.cn/img_convert/c84bb53c6b1042b43c3e8f44fab8f387.png)
 
