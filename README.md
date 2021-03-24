@@ -1,2 +1,2 @@
 # algorithm
-kinds of computer basic algorithm
+kinds of computer basic algorithms
