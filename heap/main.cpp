@@ -7,7 +7,6 @@
 #define NUM 9
 
 void swap(int * array, int idx1, int idx2) {
-    /* 交换数组的两个元素 */
     int t = array[idx1];
     array[idx1] = array[idx2];
     array[idx2] = t;
