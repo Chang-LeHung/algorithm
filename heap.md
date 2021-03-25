@@ -285,4 +285,4 @@ int main() {
 
 ![.\images\31.png](https://gitee.com/Chang-LeHung/drawingbed/raw/master/heap/31.png)
 
-上述一个简单的操作过程。其实很简单，只要掌握了```下沉```操作这个过程就很容易理解了，以上就是关于堆的所有内容了，如果对你有所帮助，三连~~~![1](https://gitee.com/Chang-LeHung/drawingbed/raw/master/heap/1.png)
+上述一个简单的操作过程。其实很简单，只要掌握了```下沉```操作这个过程就很容易理解了，以上就是关于堆的所有内容了，如果对你有所帮助，记得三连哟~~~![1](https://gitee.com/Chang-LeHung/drawingbed/raw/master/heap/1.png)
