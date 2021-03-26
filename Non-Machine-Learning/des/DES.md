@@ -354,3 +354,4 @@ CBC模式解密就时加密的逆过程根据上图很容易理解，这里不�
 ![image-20201112181149783](https://gitee.com/Chang-LeHung/drawingbed/raw/master/des/15.png)
 
 以上就是DES算法的全部内容~~~~
+如果你对des加密算法的实现过程非常感兴趣，可以查看 [https://github.com/Chang-LeHung/DES/](https://github.com/Chang-LeHung/DES/)
