@@ -6,7 +6,7 @@
 
 简单来说比如像下面这样：原文经过加密算法之后被加密成密文。
 
-![image-20201110204711992](C:\Users\胡畅\Desktop\Repositories\notes\DES\images\1.png)
+![image-20201110204711992](https://gitee.com/Chang-LeHung/drawingbed/raw/master/des/1.png)
 
 原文被加密成密文之后意义发生了改变窃听者就不能发现消息内容，这正是加密信息的意义。计算机中的信息在经过物理层的时候最终都会变成``01``比特流，加密也正是基于比特流，如果想变成信息只需经过编码即可。例如想``Java/Python``将字符串或数字变成比特流。
 
@@ -53,7 +53,7 @@ for num in encoded:
 
 首先从整体上来了解一下``DES``加密的流程。
 
-![image-20201112105800561](C:\Users\胡畅\Desktop\Repositories\notes\DES\images\2.png)
+![image-20201112105800561](https://gitee.com/Chang-LeHung/drawingbed/raw/master/des/2.png)
 
 ``DES``加密算法的明文的长度是确定的，是由``64``个`0，1`数字组成，秘钥也是如此由`64`个`01`数字组成。
 
@@ -78,7 +78,7 @@ for num in encoded:
 
     例如第一行第一列`58`，即原文的`M`第`58`位为置换后的信息`T`的第一位，第二列：原文`M`第`50`位为`T`的第二位,以此类推......
     
-    ![image-20201111001820006](C:\Users\胡畅\Desktop\Repositories\notes\DES\images\3.png)
+    ![image-20201111001820006](https://gitee.com/Chang-LeHung/drawingbed/raw/master/des/3.png)
 
 - `16`轮运算，由于`16`轮运算比较复杂稍微再进行详解。
 
