@@ -82,9 +82,9 @@ for num in encoded:
 
 - `16`轮运算，由于`16`轮运算比较复杂稍微再进行详解。
 
-- **<font color="red">初始逆置换</font>**和初始置换表一样，都是`8x8`的置换表，只是置换表内容发生了变化，除此之外其余步骤一样。
+- <font color="red">初始逆置换</font>和初始置换表一样，都是`8x8`的置换表，只是置换表内容发生了变化，除此之外其余步骤一样。
 
-  - **<font color="red">初始逆置换</font>**表
+  - <font color="red">初始逆置换</font>表
 
     ```java
     public static byte[][] initIPInverseSub = {
