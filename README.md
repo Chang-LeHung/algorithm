@@ -8,4 +8,3 @@
 
 ## 机器学习算法
   - [线性回归大结局(岭(Ridge)、 Lasso回归原理、公式推导、评价方式)，你想要的这里都有](./Machine-Learning/Linear_Regression/Linear%20Regression.html)
-  - [lr](./Machine-Learning/Linear_Regression/Linear%20Regression.md)
